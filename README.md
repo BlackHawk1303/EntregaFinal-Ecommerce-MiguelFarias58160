@@ -18,7 +18,7 @@ $ npm run dev
 
 ## Test App 
 
-[Deploy](https://Ecommerce+MiguelFarias.vercel.app)
+[Deploy](https://entrega-final-ecommerce-miguel-farias58160.vercel.app/)
 
 ![Gif Demostrative](./docs/func.gif)
 
