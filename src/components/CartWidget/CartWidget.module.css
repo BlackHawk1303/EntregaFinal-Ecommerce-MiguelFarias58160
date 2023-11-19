@@ -1,0 +1,18 @@
+.cart-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.cart-icon {
+    width: 34px;
+    height: 34px; 
+    margin-right: 5px;
+}
+.cart-count {
+    font-weight: bold;
+}

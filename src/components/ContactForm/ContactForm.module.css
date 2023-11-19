@@ -1,0 +1,37 @@
+.orderButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.orderButton:hover {
+    background-color: #0056b3;
+}
+.divider {
+    width: 100%;
+    border: 1px solid #007BFF;
+    margin: 10px 0;
+}
+.label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.formGroup {
+    margin-bottom: 15px;
+}
+.input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formContainer {
+    width: 290px;
+    padding: 5px;
+}

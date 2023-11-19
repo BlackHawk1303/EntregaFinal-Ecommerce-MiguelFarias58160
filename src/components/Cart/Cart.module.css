@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cardItem {
+    font-size: 32px;
+    margin: 10px 0;
+    text-align: center;
+}
+.cardTitle {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+.cardDescription {
+    font-size: 26px;
+    margin: 10px 0;
+    text-align: center;
+}
+.divider {
+    width: 100%;
+    border: 1px solid #007BFF;
+    margin: 10px 0;
+}
+.checkoutButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: auto;
+}
+.checkoutButton:hover {
+    background-color: #0056b3;
+}
+.linkStyle{
+    color: white;
+}
+.removeItemButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.removeItemButton:hover {
+    background-color: #c82333;
+}
+.cardImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
