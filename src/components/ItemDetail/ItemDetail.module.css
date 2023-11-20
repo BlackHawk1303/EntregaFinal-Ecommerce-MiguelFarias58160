@@ -29,15 +29,6 @@
 .finallyButton:hover {
     background-color: #0056b3;
 }
-/*
-.container {
-    flex-grow: 1;
-    min-height: calc(100vh - 20px);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-*/
 .cardDiv{
     text-align: center;
 }
