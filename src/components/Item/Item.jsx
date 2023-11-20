@@ -9,6 +9,7 @@ import proy2 from "../../assets/proyecto2.png"
 import proy3 from "../../assets/proyecto3.png"
 //Prueba
 
+//Intento cargar imagenes ya que no puedo visualizarlas en vercel
 //Prueba
 const cargarImg = (imagen) =>{
     let imagenItem = imagen.slice(4);
@@ -43,7 +44,7 @@ const Item = ({ id, name, img, price }) => {
         <div onClick={handleClick} className={classes.card}>
             {/*<img src={img} alt={name} className={classes.cardImage} /> */}
             <img src={cargarImg(img)} alt={name} className={classes.cardImage} />
-            
+
             <hr className={classes.divider} />
             <div className={classes.cardInfo}>
                 <h3 className={classes.cardTitle}>{name}</h3>
