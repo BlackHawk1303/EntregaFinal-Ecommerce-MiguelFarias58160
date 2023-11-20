@@ -2,7 +2,9 @@ import classes from './Navbar.module.css'
 import CartWidget from "../CartWidget/CartWidget"
 import { NavLink, useNavigate } from 'react-router-dom'
 
-import {coderhouseLogo} from "./src/assets/logo-coderhouse.png"
+//import {coderhouseLogo} from "./assets/logo-coderhouse.png"
+
+import coderhouseLogo from "./assets/logo-coderhouse.png";
 
 const Navbar = () => {
     const navigate = useNavigate()
