@@ -9,7 +9,6 @@ const Cart = () => {
     const handleRemoveItem = (productId) => {removeItem(productId);
     };
 
-    
     return (
         <div className={classes.card}>
             <h1 className={classes.cardTitle}>Carrito de Compra</h1>
