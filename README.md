@@ -1,8 +1,8 @@
 # EntregaFinal-Ecommerce+MiguelFarias58160-CoderHouse
 
-This Product is being built
+This Proyect is being built / Este proyecto se encuentra en desarrollo
 
-## Running
+## Running App
 
 ```bash
 $ npm install
